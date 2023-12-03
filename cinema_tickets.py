@@ -7,8 +7,7 @@ while movie_name != "Finish":
     sold_tickets = 0
     for ticket in range(free_seats):
         current_ticket = input()
-        if current_ticket == "End":
-            break
+        if current_ticket == "End"
         elif current_ticket == "student":
             student_tickets += 1
         elif current_ticket == "standard":
